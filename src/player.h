@@ -1,9 +1,11 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
+#include <raylib.h>
+
 struct Player {
-  int x, y;
-  int width, height;
+  Vector2 pos;
+  Vector2 size;
   int speed;
 };
 
